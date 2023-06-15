@@ -215,7 +215,6 @@ header .navbar ul li a:hover {
 }
 .home .image img {
   width: 70%;
-  height: 450px;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -223,7 +222,7 @@ header .navbar ul li a:hover {
 
 }
 .home .image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h2 {
   font-size: 5rem;
@@ -747,7 +746,7 @@ header .navbar ul li a:hover {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 40px;
   transition: 0.5s;
   color: rgb(255, 255, 255);
   font-weight: 700;
@@ -880,10 +879,10 @@ header .navbar ul li a:hover {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 40px;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
+  color: black !important;
+  background: yellow ;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
 }
@@ -898,7 +897,8 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #1a047e;
+  background-color: indigo;
+  color: white !important;
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
@@ -1228,8 +1228,8 @@ form .button-area {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: yellow;
-  color: rgb(13, 0, 44);
+  background: indigo;
+  color: white;
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;
